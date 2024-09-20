@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
 
   // Function to add a todo item
   function addtodo(event) {
-      let inputtext = todoinput.value.trim(); // Trim whitespace from input text
+      let inputtext = todoinput.value.trim() ; // Trim whitespace from input text
     
       // If the input text is empty, show the warning text and return
       if (inputtext === "" || inputtext === null) {

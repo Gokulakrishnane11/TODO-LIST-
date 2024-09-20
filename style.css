@@ -248,15 +248,20 @@ main div{
   width: 100%;
   height: 100%;
 }
+.input-container{
+  display: flex;
+  position: relative;
+}
 .wrong{
   font-size:14px;
   font-weight: bold;
   text-shadow: #333 2px;
-  margin: 1%;
-  margin-top: 5px;
   color: red;
-  transition: all.2s ease-in-out;
-  display: none;
+  position: absolute;
+  bottom: 0;
+  left: 5%;
+  padding:10px;
+  display:none;
 
 }
 
@@ -309,23 +314,10 @@ main input{
 }
 /* hover effect on button width */
 .Btn:hover {
-  width: 125px;
   border-radius: 0px;
   transition-duration: .3s;
 }
 
-.Btn:hover .sign {
-  width: 30%;
-  transition-duration: .3s;
-  padding-left: 20px;
-}
-/* hover effect button's text */
-.Btn:hover .text {
-  opacity: 1;
-  width: 70%;
-  transition-duration: .3s;
-  padding-right: 20px;
-}
 /* button click effect*/
 .Btn:active {
   transform: translate(2px ,2px);
@@ -383,6 +375,7 @@ main input{
     width: fit-content;
     transition: color 0.4s ease;
     margin-right: 20px;
+    font-size: 23px;
   }
   
   #checklist label::before, #checklist label::after {
