@@ -11,7 +11,7 @@ Welcome to the To-Do List App! This is a simple and interactive application wher
   
 ## 🎯 Demo
 
-- Check out a live demo of the To-Do List App here.
+- Check out a live demo of the To-Do List App [here](https://todo-list-app-by-gokul.netlify.app/).
 
 ## 🛠️ Technologies Used
 
@@ -20,41 +20,46 @@ Welcome to the To-Do List App! This is a simple and interactive application wher
 - **JavaScript:** Dynamic behavior and task management.
   
 ## 📂 Project Structure
-
-bash
-Copy code
-├── index.html         # Main HTML file
+```
+├── index.html         # Main HTML file 
 ├── style.css          # CSS styles
 ├── script.js          # JavaScript for the app's functionality
 └── README.md          # Project documentation (this file)
+```
 ## ⚙️ How to Use
-Clone the repository:
+**Clone the repository:**
+```
+ git clone https://github.com/Gokulakrishnane11/TODO-LIST-.git
+```  
+**Navigate to the project directory:**
 
-bash
-Copy code
-git clone https://github.com/your-username/todo-list-app.git
-Navigate to the project directory:
-
-bash
-Copy code
+```
 cd todo-list-app
-Open index.html in your browser and start managing your tasks.
+```
+
+- Open ```index.html``` in your browser and start managing your tasks.
 
 ## 📸 Screenshots
-Here’s a preview of the app:
+
+**Here’s a preview of the app:**
+![To-do list App](https://github.com/user-attachments/assets/bb59a79a-a4ef-4bc5-96fb-666344a87991)
 
 
 
 ## 💡 Future Enhancements
-Add due dates for tasks ⏰
-Sort tasks by priority 🔝
-Add user authentication 🔒
+
+- Add due dates for tasks ⏰
+- Sort tasks by priority 🔝
+- Add user authentication 🔒
+  
 ## 🧑‍💻 Author
-Name: Gokulakrisnan
-GitHub: Gokulakrisnan
-LinkedIn: Your LinkedIn
+
+- **Name:** Gokulakrisnan
+- **GitHub:** [Gokulakrisnane](https://github.com/Gokulakrishnane11)
+- **LinkedIn:** [LinkedIn](https://linkedin.com/in/r-gokula-krishnan2)
+
 ## 🤝 Contributions
-Contributions, issues, and feature requests are welcome! Feel free to check the issues page.
+- Contributions, suggestions, and feature requests are welcome! Feel free to open an issue or submit a pull request.
 
 ## 📄 License
-This project is open source and available under the MIT License.
+- This project is open source and available under the MIT License.
